@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<BugReport>
+  <Id>1</Id>
+  <Name>Can't log in after clicking the login button</Name>  
+  <Description>Can't log in when the correct data was entered</Description>
+  <StepsToRepresent>
+      <StepOne>Open the auth page</StepOne>
+      <StepTwo>Enter the login value 'test'</StepTwo>
+      <StepThree>Enter the password value 'test'</StepThree>
+      <StepFour>Press 'Log In' button</StepFour>
+  </StepsToRepresent>
+  <ActualResult>Error message 'Incorrect username or password' appeared</ActualResult>
+  <ExpectedResult>Login successful. User profile appeared</ExpectedResult>
+  <Priority>High</Priority>
+  <Severity>Blocker</Severity>
+  <Environment>Chrome 102.0.5005.63</Environment>
+</BugReport>
