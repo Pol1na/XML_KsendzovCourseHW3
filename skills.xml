@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Skills>
+    <Tools>
+        <WebTool>Chrome DevTool</WebTool>
+        <Therminal>Git</Therminal>
+        <Mobile>Charles</Mobile>
+    </Tools>
+    <Language>JavaScript</Language>
+</Skills>
